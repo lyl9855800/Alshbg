@@ -73,6 +73,11 @@ async def send_report(content):
             await channel.send(content)
 
 # إعداد قناة التقارير
+
+@bot.command()
+async def ping(ctx):
+    latency = round(bot.latency * 1000)  # تحويل زمن الاستجابة إلى ميلي ثانية
+    await ctx.send(f'🏓 Pong! زمن الاستجابة: {latency}ms')
 @bot.command()
 @commands.has_permissions(administrator=True)
 async def set_report_channel(ctx, channel: discord.TextChannel):
