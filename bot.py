@@ -6,7 +6,7 @@ import re
 
 # إعداد البوت
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix='/', intents=intents)
 
 # ملف JSON لتخزين البيانات
 DATA_FILE = "violations.json"
@@ -154,4 +154,4 @@ async def violations(ctx):
     await ctx.send(f"📋 سجل المخالفات:\nقناة التقارير: {report_channel_id}")
 
 # تشغيل البوت
-bot.run('51ff65d66bce5426fd5249c7e08d2fcf0a3d1bffdecba2742d4b4e960f7bd4c5')
+bot.run('MTMyMjMzMTA3MTU0NjY1ODkzMA.G2Ot29.u1CyHmucSiu7X3-G0mwgywvmUgsF_9B-lYyC_o')
