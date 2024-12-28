@@ -154,4 +154,4 @@ async def violations(ctx):
     await ctx.send(f"📋 سجل المخالفات:\nقناة التقارير: {report_channel_id}")
 
 # تشغيل البوت
-bot.run('MTMyMjMzMTA3MTU0NjY1ODkzMA.G2Ot29.u1CyHmucSiu7X3-G0mwgywvmUgsF_9B-lYyC_o')
+bot.run('KEY')
